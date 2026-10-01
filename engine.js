@@ -60,7 +60,7 @@
       if(special!=='none') return finish('REVIEW','special');
       const eligible=!post||group==='dairy'; out.stacking=!eligible;
       out.transition=!!(ban&&imported<banAt&&entered>=banAt&&(!ban.packaged_only||packaged!=='no'));
-      if(out.transition&&eligible&&exemption!=='no') return finish('REVIEW','transition');
+      if(out.transition) return finish('REVIEW','transition');
       if(eligible&&exemption==='unknown') return finish('REVIEW','exemption');
       if(eligible&&exemption==='yes') return finish('NOTE51C_EXCLUSION','exclusion',0);
       out.futureBan=!!(ban&&imported<banAt); out.bulk=!!(ban?.packaged_only&&packaged==='no');
