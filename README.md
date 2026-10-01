@@ -1,7 +1,7 @@
 # Axxess — Section 338
 
-Version de révision bilingue / Bilingual review version.
+Vérificateur bilingue / Bilingual checker. Sources CBP vérifiées le 1er octobre 2026.
 
-[Guide principal / Main guide](README.html) · [Vérificateur / Checker](index.html)
+[Documentation et maintenance](README.html) · [Vérificateur FR](index.html?lang=fr) · [English checker](index.html?lang=en)
 
-Sources vérifiées le 9 septembre 2026. Référentiel fixe; aucune mise à jour automatique.
+Référentiel fixe 2026-10-01.v1 : CSMS 69851916 et 70050970. Aucune mise à jour automatique.
